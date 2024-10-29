@@ -1,0 +1,67 @@
+/* DiscountCalculator.css */
+
+.calculator-container {
+    background-color: #f3f4f6; /* Light gray background */
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 400px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .calculator-container h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 15px 0;
+  }
+  
+  .label input {
+    padding: 8px;
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-top: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .label input:focus {
+    border-color: #4a90e2; /* Blue on focus */
+  }
+  
+  button.calculate-button {
+    background-color: #4a90e2;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button.calculate-button:hover {
+    background-color: #357abd; /* Darker blue on hover */
+  }
+  
+  .result-container {
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .result-container p {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
